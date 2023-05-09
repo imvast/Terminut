@@ -22,7 +22,8 @@ pip install terminut
 # default shit if u want to only import for ease - auto switches #
 
 from terminut import printf as print, inputf as input, init
-init(debug=True)
+
+init(debug=False)
 
 print("[DEBUG] Should Not Show")
 print("[INFO] Should Show")
